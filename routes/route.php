@@ -10,5 +10,5 @@
 |
 */
 
-Route::get('news',array('uses' => 'Coffey\Weather\Http\Controllers\NewsController@index'));
+Route::get('news',array('uses' => 'Coffey\News\Http\Controllers\NewsController@index'));
 

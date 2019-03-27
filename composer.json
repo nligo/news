@@ -8,7 +8,9 @@
             "email": "coffey@nligo.com"
         }
     ],
-    "require": {},
+    "require": {
+        "coffey/news": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Coffey\\News\\": "src"
