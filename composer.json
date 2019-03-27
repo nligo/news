@@ -1,0 +1,24 @@
+{
+    "name": "coffey\/news",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "coffey",
+            "email": "coffey@nligo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Coffey\\News\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coffey\\News\\ServiceProvider"
+            ]
+        }
+    }
+}
